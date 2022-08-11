@@ -11,6 +11,6 @@ In this code, I have employed the MobileNetV3 as my pretrained model to do trans
 
 You may refer to the code ["Project_3(Using Transfer Learning)"].<br>
 
-The result we get is quite satisfying, which is about 98.5% of accuracy.<br>
+The result we get is quite satisfying, which is about 99.8% of accuracy.<br>
 
 Also, another CNN model was constructed to make a comparision.<br>

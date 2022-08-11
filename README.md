@@ -1,7 +1,7 @@
 # Project_3-Image-Classification
 
-This project is about image classfication.<br>
-There are two classed of road image here:<br>
+This project is about image classfication. There are two classes of road image here:<br>
+
 Class "0" = negative, refer to the road images without crack on the surface.<br>
 Class "1" = positive, refer to the road images with crack on the surface.<br>
 

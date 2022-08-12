@@ -24,7 +24,7 @@ Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CN
 ## Result
 |        Model        |    Accuracy    |   Time-Taken for training  |
 |        :---:        |     :---:      |            :---:           | 
-| MobileNetV3-based   |    ~99.7%      |        8 mins 20 secs      |
+| MobileNetV3-based   |    ~99.7%      |        6 mins 02 secs      |
 | Simple CNN          |    ~99.7%      |        1 hours 48 mins     |
 
 ## Remarks

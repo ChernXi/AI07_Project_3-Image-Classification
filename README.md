@@ -9,9 +9,9 @@ Our code aims to classify the targeted images to one of two classes as stated ab
 
 In this code, I have employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image's feature extraction by myself.<br>
 
-You may refer to the code ["Project_3(Using Transfer Learning)"](https://github.com/ChernXi/Project_3-Image-Classification/blob/main/Project_3(Using_Tranfer_Learning)%20.ipynb).<br>
+You may refer to the code [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb).<br>
 
-Also, another CNN model was constructed to make a comparision.<br>
+Also, another CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple CNN).ipynb) to make a comparision.<br>
 
 ## Result
 |        Model        |    Accuracy    |   Time-Taken   |

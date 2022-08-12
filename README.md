@@ -1,4 +1,4 @@
-# Project_3-Image-Classification
+# AI07_Project_3-Image-Classification
 
 This project is about image classfication. 
 

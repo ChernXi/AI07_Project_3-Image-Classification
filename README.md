@@ -11,7 +11,7 @@ In this code, I have employed the MobileNetV3 as my pretrained model to do trans
 
 You may refer to the code [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb).<br>
 
-Also, another CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple CNN).ipynb) to make a comparision.<br>
+Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple CNN).ipynb) to make a comparision.<br>
 
 ## Result
 |        Model        |    Accuracy    |   Time-Taken   |

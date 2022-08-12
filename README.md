@@ -1,5 +1,6 @@
 # AI07_Project_3-Image-Classification
 
+## Introduction
 This project is about image classfication. 
 
 You may obtain the dataset from https://data.mendeley.com/datasets/5y9wdsg2zt/2.
@@ -9,10 +10,10 @@ In the dataset, there are two classes of concrete image:<br>
 "Negative" , which is equivalent to class "0" in my code, refer to the concrete images without crack on the surface.<br>
 "Positive" , which is equivalent to class "1" in my code, refer to the concrete images with crack on the surface.<br>
 
-Below are some of the sample images:
-![concrete_crack](https://user-images.githubusercontent.com/108325848/184343265-01b7cb56-8133-4f13-9635-6cba6062d24b.png)
+Below are some of the sample images:<br>
+![concrete_crack](https://user-images.githubusercontent.com/108325848/184343927-a8ad0902-af29-4222-a74f-7300927dbb08.png) <br>
 
-The aims of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
+The objective of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
 
 In my first attempt, I employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image feature extraction by myself.<br>
 

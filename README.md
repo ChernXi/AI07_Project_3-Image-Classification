@@ -11,9 +11,9 @@ In the dataset, there are two classes of concrete image:<br>
 
 The aims of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
 
-In my first attempt, I have employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image's feature extraction by myself.<br>
+In my first attempt, I employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image feature extraction by myself.<br>
 
-You may refer to the code [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb).<br>
+You may refer to the code in [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb) to study the whole process.<br>
 
 Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CNN).ipynb) to make a comparision.<br>
 

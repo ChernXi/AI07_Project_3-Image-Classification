@@ -9,6 +9,9 @@ In the dataset, there are two classes of concrete image:<br>
 "Negative" , which is equivalent to class "0" in my code, refer to the concrete images without crack on the surface.<br>
 "Positive" , which is equivalent to class "1" in my code, refer to the concrete images with crack on the surface.<br>
 
+Below are some of the sample images:
+![concrete_crack](https://user-images.githubusercontent.com/108325848/184343265-01b7cb56-8133-4f13-9635-6cba6062d24b.png)
+
 The aims of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
 
 In my first attempt, I employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image feature extraction by myself.<br>

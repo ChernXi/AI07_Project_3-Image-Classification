@@ -28,7 +28,7 @@ Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CN
 | Simple CNN          |    ~99.7%      |        1 hours 48 mins     |
 
 Some prediction samples:<br>
-![Sample_Prediction](https://user-images.githubusercontent.com/108325848/184414623-74ef5d68-78a9-4d06-9a05-e20c9003956a.png)<br>
+![Sample_Prediction](https://user-images.githubusercontent.com/108325848/184414942-4d55563a-e4b0-4f42-a838-776f127bbaa8.png) <br>
 
 ## Remarks
 From the results shown above, we see that both the transfer-learning approach and the self-construct CNN approach can achieve very high accuracy in image classification.<br>

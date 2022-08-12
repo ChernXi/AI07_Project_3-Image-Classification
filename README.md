@@ -18,10 +18,10 @@ You may refer to the code in [Project_3(MobileNetV3-based)](Project_3(MobileNetV
 Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CNN).ipynb) to make a comparision.<br>
 
 ## Result
-|        Model        |    Accuracy    |   Time-Taken   |
-|        :---:        |     :---:      |     :---:      | 
-| MobileNetV3-based   |  99.6%~99.8%   | 8 mins 20 secs |
-| Simple CNN          |  99.6%~99.7%   | 1 hours 48 mins|
+|        Model        |    Accuracy    |   Time-Taken for training  |
+|        :---:        |     :---:      |            :---:           | 
+| MobileNetV3-based   |  99.6%~99.8%   |        8 mins 20 secs      |
+| Simple CNN          |  99.6%~99.7%   |        1 hours 48 mins     |
 
 ## Remarks
 From the results shown above, we see that both the transfer-learning approach and the self-construct CNN approach can achieve very high accuracy in image classification.<br>

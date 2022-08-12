@@ -11,12 +11,10 @@ In this code, I have employed the MobileNetV3 as my pretrained model to do trans
 
 You may refer to the code ["Project_3(Using Transfer Learning)"](https://github.com/ChernXi/Project_3-Image-Classification/blob/main/Project_3(Using_Tranfer_Learning)%20.ipynb).<br>
 
-The result we get is quite satisfying, which is about 99.8% of accuracy.<br>
-
 Also, another CNN model was constructed to make a comparision.<br>
 
 ## Result
-|        Model        |    Accuracy    |  
-|        :---:        |     :---:      |  
-| MobileNetV3-based   |  99.6%~99.8%   | 
-| Simple CNN          |  99.6%~99.7%   | 
+|        Model        |    Accuracy    |   Time-Taken   |
+|        :---:        |     :---:      |     :---:      | 
+| MobileNetV3-based   |  99.6%~99.8%   | 8 mins 20 secs |
+| Simple CNN          |  99.6%~99.7%   | 1 hours 48 mins|

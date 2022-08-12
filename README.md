@@ -1,9 +1,13 @@
 # Project_3-Image-Classification
 
-This project is about image classfication. There are two classes of concrete image here:<br>
+This project is about image classfication. 
 
-Class "0" = negative, refer to the concrete images without crack on the surface.<br>
-Class "1" = positive, refer to the concrete images with crack on the surface.<br>
+You may obtain the dataset from https://data.mendeley.com/datasets/5y9wdsg2zt/2.
+
+In the dataset, there are two classes of concrete image:<br>
+
+"Negative" , which is equivalent to class "0" in my code, refer to the concrete images without crack on the surface.<br>
+"Positive" , which is equivalent to class "1" in my code, refer to the concrete images with crack on the surface.<br>
 
 The aims of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
 

@@ -20,8 +20,7 @@ Also, another CNN model was constructed to make a comparision.<br>
 | Simple CNN          |  99.6%~99.7%   | 1 hours 48 mins|
 
 ## Remarks
-From the result shown above, we see that both tranfer-learning approach and self-construct CNN approach can achieve very high accuracy in image classification.<br>
-The simple CNN model above in fact is highly simplified to save the cost of running time.<br>
+From the results shown above, we see that both the transfer-learning approach and the self-construct CNN approach can achieve very high accuracy in image classification.<br>
+The simple CNN model above, in fact, is highly simplified to save the cost of running time.<br>
 By modifying the architecture of the CNN model, it is possible to further improve the accuracy of prediction.(I actually did this, and the code attached above is itself an improved version.)<br>
-However, all this are on the price of running time.(=Your priceless living time + our world priceless natural resources!)
-Hence, I highly recommend to use the transfer-learning approach in constructing model to do image classification.
+However, all this comes at the price of running time. (=Your priceless living time + our world's priceless natural resources!) Hence, I highly recommend using the transfer-learning approach in constructing models to do image classification.<br>

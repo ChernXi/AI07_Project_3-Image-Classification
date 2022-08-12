@@ -14,3 +14,9 @@ You may refer to the code ["Project_3(Using Transfer Learning)"](https://github.
 The result we get is quite satisfying, which is about 99.8% of accuracy.<br>
 
 Also, another CNN model was constructed to make a comparision.<br>
+
+## Result
+|        Model        |    Accuracy    |  
+|        :---:        |     :---:      |  
+| MobileNetV3-based   |  99.6%~99.8%   | 
+| Simple CNN          |  99.6%~99.7%   | 

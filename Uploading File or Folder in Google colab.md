@@ -16,7 +16,7 @@ For example,
 3. To read the folder that you have just uploaded, click the directory at the LHS of the Google Colab, and find your file there. <br>
 ![image](https://user-images.githubusercontent.com/108325848/184474011-3933d7da-57a5-40e2-bd62-89602636d30d.png)
 
-you may copy the file path, <br>
+you may copy the folder path, <br>
 ![image](https://user-images.githubusercontent.com/108325848/184474141-448e2002-417a-4184-b0c2-3a2a741e7f2e.png) 
 
 then use keras.utils.image_dataset_from_directory() to read it:

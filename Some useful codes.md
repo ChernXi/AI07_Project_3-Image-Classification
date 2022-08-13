@@ -16,4 +16,9 @@ For example,
 from google.colab import files
 uploaded = files.upload()
 ```
-4. If the file 
+4. If the file is a csv file, you may read the file by using pd.read_csv(), for example:
+```
+df_train = pd.read_csv("train.csv", sep=",", header=0) # If the data is separated by comma
+df_train = pd.read_csv("train.csv", sep=" ", header=0) # If the data is separated by space
+df_train = pd.read_csv("ttrain.csv", header=0) # If the data is placed inside the excel's cell properly.
+```

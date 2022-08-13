@@ -17,7 +17,7 @@ For example,
 ![image](https://user-images.githubusercontent.com/108325848/184474011-3933d7da-57a5-40e2-bd62-89602636d30d.png)
 
 you may copy the file path, <br>
-![image](https://user-images.githubusercontent.com/108325848/184474141-448e2002-417a-4184-b0c2-3a2a741e7f2e.png)
+![image](https://user-images.githubusercontent.com/108325848/184474141-448e2002-417a-4184-b0c2-3a2a741e7f2e.png) 
 
 then use keras.utils.image_dataset_from_directory() to read it:
 ```
@@ -33,7 +33,7 @@ train_dataset = keras.utils.image_dataset_from_directory(data_dir,validation_spl
 val_dataset = keras.utils.image_dataset_from_directory(data_dir,validation_split=0.2,subset='validation',seed=SEED,shuffle=True,
                                                          image_size=IMG_SIZE,batch_size=BATCH_SIZE)
 ``` 
-The result will be something like:
+The result will be something like:<br>
 ![image](https://user-images.githubusercontent.com/108325848/184474514-5f09d3f3-aad1-44c6-90a8-35e11da6749d.png)
 
 4. If you were just need to upload a single file, then you may use:

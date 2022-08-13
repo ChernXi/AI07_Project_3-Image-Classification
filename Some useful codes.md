@@ -11,3 +11,9 @@ For example,
 ```
 !unzip -u "/content/gdrive/MyDrive/roadcrack.zip" -d /content/gdrive/MyDrive/roadcrack
 ```
+3. If you were just need to upload a single file, then you may use:
+```
+from google.colab import files
+uploaded = files.upload()
+```
+4. If the file 

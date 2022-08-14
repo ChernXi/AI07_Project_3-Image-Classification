@@ -21,7 +21,8 @@ The main IDE of this project is [Google Colab](https://colab.research.google.com
 The main frameworks used in this project are: [Numpy](https://www.w3schools.com/python/numpy/numpy_intro.asp#:~:text=NumPy%20is%20a%20Python%20library,you%20can%20use%20it%20freely.), [Tensorflow Keras](https://keras.io/about/) and [Matplotlib](https://matplotlib.org/stable/gallery/index.html).<br>
 
 ## 4. Methodology
-In my first attempt, I employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image feature extraction by myself.<br>
+In my first attempt, I employed the MobileNetV3Small as my pretrained model to do transfer learning.<br>
+The MobileNetV3Small model will take care of the feature extraction part, so I only add some dense layers as the classification layers to the model's architecture.<br>
 
 You may refer to the code in [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb) to study the whole process.<br>
 The framework of the MobileNetV3-based model is as below:<br>

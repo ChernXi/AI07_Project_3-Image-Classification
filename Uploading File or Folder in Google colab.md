@@ -1,3 +1,6 @@
+Author: Pang Chern Xi
+Date: 14 Aug 2022
+
 ## Uploading File/Folder in Google colab
 
 1. By mounting the google drive on Google colab, you can access the google drive's file directly.<br>

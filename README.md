@@ -1,6 +1,6 @@
 # AI07_Project_3-Image-Classification
 
-## Introduction
+## 1. Introduction
 This project is about image classfication. 
 
 You may obtain the dataset from https://data.mendeley.com/datasets/5y9wdsg2zt/2.
@@ -13,24 +13,37 @@ In the dataset, there are two classes of concrete image:<br>
 Below are some of the sample images:<br>
 ![concrete_crack](https://user-images.githubusercontent.com/108325848/184343927-a8ad0902-af29-4222-a74f-7300927dbb08.png) <br>
 
+## 2. Objective 
 The objective of this project is to construct a model that can classify the targeted images to one of two classes as stated above.<br>
 
+## 3. IDE and Framework
+The main IDE of this project is [Google Colab](https://colab.research.google.com/?utm_source=scs-index). <br>
+The main frameworks used in this project are: [Numpy](https://www.w3schools.com/python/numpy/numpy_intro.asp#:~:text=NumPy%20is%20a%20Python%20library,you%20can%20use%20it%20freely.), [Tensorflow Keras](https://keras.io/about/) and [Matplotlib](https://matplotlib.org/stable/gallery/index.html).<br>
+
+## 4. Methodology
 In my first attempt, I employed the MobileNetV3 as my pretrained model to do transfer learning so that I don't have to construct the model's architecture to do image feature extraction by myself.<br>
 
 You may refer to the code in [Project_3(MobileNetV3-based)](Project_3(MobileNetV3-based).ipynb) to study the whole process.<br>
+The framework of the MobileNetV3-based model is as below:<br>
+![image](https://user-images.githubusercontent.com/108325848/184523287-0a0947cf-6d30-4249-961a-0535b75aa8fb.png)
 
 Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CNN).ipynb) to make a comparision.<br>
+The framework of the simple CNN model is as below:<br>
 
-## Result
+
+## 5. Result
 |        Model        |    Accuracy    |   Time-Taken for training  |
 |        :---:        |     :---:      |            :---:           | 
-| MobileNetV3-based   |    ~99.7%      |        6 mins 02 secs      |
+| MobileNetV3-based   |    ~99.9%      |        6 mins 02 secs      |
 | Simple CNN          |    ~99.7%      |        1 hours 48 mins     |
+
+Test loss and Test Accuracy of MobileNetV3-based model 
+![image](https://user-images.githubusercontent.com/108325848/184522697-984922be-7895-4573-8b37-82cc6479b518.png)
 
 Some prediction samples:<br>
 ![Sample_Prediction](https://user-images.githubusercontent.com/108325848/184414942-4d55563a-e4b0-4f42-a838-776f127bbaa8.png) <br>
 
-## Remarks
+## 6. Remarks
 From the results shown above, we see that both the transfer-learning approach and the self-construct CNN approach can achieve very high accuracy in image classification.<br>
 The simple CNN model above, in fact, is highly simplified to save the cost of running time.<br>
 By modifying the architecture of the CNN model, it is possible to further improve the accuracy of prediction.(I actually did this, and the code attached above is itself an improved version.)<br>

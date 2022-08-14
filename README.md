@@ -29,8 +29,9 @@ The framework of the MobileNetV3-based model is as below:<br>
 ![image](https://user-images.githubusercontent.com/108325848/184523287-0a0947cf-6d30-4249-961a-0535b75aa8fb.png)
 
 Also, a CNN model was constructed in [Project_3(Simple CNN)](Project_3(Simple-CNN).ipynb) to make a comparision.<br>
+Here, 3 convolutional layers were used as the features extraction layers.<br>
 The framework of the simple CNN model is as below:<br>
-
+![image](https://user-images.githubusercontent.com/108325848/184534510-cd76e512-e4c2-46d4-bbdc-fc3e19669bae.png)
 
 ## 5. Result
 |        Model        |    Accuracy    |   Time-Taken for training  |

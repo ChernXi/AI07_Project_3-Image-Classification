@@ -41,7 +41,7 @@ Test loss and Test Accuracy of MobileNetV3-based model: <br>
 ![image](https://user-images.githubusercontent.com/108325848/184522697-984922be-7895-4573-8b37-82cc6479b518.png)
 
 Some prediction samples:<br>
-![Sample_Prediction](https://user-images.githubusercontent.com/108325848/184414942-4d55563a-e4b0-4f42-a838-776f127bbaa8.png) <br>
+![image](https://user-images.githubusercontent.com/108325848/184523361-d19efcf3-382f-42a6-b9d1-9aa35a580dfd.png) <br>
 
 ## 6. Remarks
 From the results shown above, we see that both the transfer-learning approach and the self-construct CNN approach can achieve very high accuracy in image classification.<br>

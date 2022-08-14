@@ -37,7 +37,7 @@ The framework of the simple CNN model is as below:<br>
 |        Model        |    Accuracy    |   Time-Taken for training  |
 |        :---:        |     :---:      |            :---:           | 
 | MobileNetV3-based   |    ~99.9%      |        6 mins 02 secs      |
-| Simple CNN          |    ~99.7%      |        1 hours 48 mins     |
+| Simple CNN          |    ~99.7%      |        4 hours 21 mins     |
 
 Test loss and Test Accuracy of MobileNetV3-based model: <br>
 ![image](https://user-images.githubusercontent.com/108325848/184522697-984922be-7895-4573-8b37-82cc6479b518.png)

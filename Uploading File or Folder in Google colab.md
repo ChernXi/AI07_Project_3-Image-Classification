@@ -10,8 +10,9 @@ drive.mount('/content/gdrive', force_remount=True)
 !unzip -u <source_path.zip> -d <destination_path> <br>
 For example,
 ```
-!unzip -u "/content/gdrive/MyDrive/roadcrack.zip" -d /content/gdrive/MyDrive/roadcrack
+!unzip -u "/content/gdrive/MyDrive/roadcrack.zip" -d /content/roadcrack
 ```
+**CAUTIOUS! Please don't specify your destination path in /content/gdrive/.../foldername! This is because, during training, it will take hundered times longer to read the file from gdrive than from the ipynb file you are using currently. Instead, you should specify your destination path in /content/foldername. In this way, it will read the file from the ipynb directly during training.** <br>   
 
 3. To read the folder that you have just uploaded, click the directory at the LHS of the Google Colab, and find your file there. <br>
 ![image](https://user-images.githubusercontent.com/108325848/184474011-3933d7da-57a5-40e2-bd62-89602636d30d.png)
